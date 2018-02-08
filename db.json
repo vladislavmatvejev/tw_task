@@ -1,9 +1,57 @@
-{
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
-}
+{"address-book": [
+  {
+    "age": 36,
+    "name": {
+      "first": "Shannon",
+      "last": "Mueller"
+    },
+    "company": "AQUASSEUR",
+    "email": "Shannon.Mueller@example.com",
+    "phone": "+1 (969) 539-2291",
+    "address": "817 Devon Avenue, Defiance, Massachusetts, 5142"
+  },
+  {
+    "age": 31,
+    "name": {
+      "first": "Bennett",
+      "last": "Rivers"
+    },
+    "company": "UNEEQ",
+    "email": "Bennett.Rivers@example.com",
+    "phone": "+1 (938) 400-2919",
+    "address": "110 Hutchinson Court, Gilmore, Oregon, 9198"
+  },
+  {
+    "age": 35,
+    "name": {
+      "first": "Brady",
+      "last": "Lucas"
+    },
+    "company": "GOLISTIC",
+    "email": "Brady.Lucas@example.com",
+    "phone": "+1 (939) 409-3542",
+    "address": "361 Duffield Street, Choctaw, Pennsylvania, 6307"
+  },
+  {
+    "age": 31,
+    "name": {
+      "first": "Alyssa",
+      "last": "Mcfadden"
+    },
+    "company": "DUOFLEX",
+    "email": "Alyssa.Mcfadden@example.com",
+    "phone": "+1 (929) 569-3841",
+    "address": "338 Rost Place, Rosedale, Wisconsin, 8228"
+  },
+  {
+    "age": 29,
+    "name": {
+      "first": "Arnold",
+      "last": "Pierce"
+    },
+    "company": "RECRITUBE",
+    "email": "Arnold.Pierce@example.com",
+    "phone": "+1 (971) 458-2660",
+    "address": "950 Tehama Street, Callaghan, Utah, 2852"
+  }
+]}
