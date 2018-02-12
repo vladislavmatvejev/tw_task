@@ -14,7 +14,7 @@ class PersonList extends React.Component {
     }
 
     componentDidMount() {
-        let url = 'http://localhost:3000/address-book';
+        let url = 'http://localhost:3000/persons-list';
 
         fetch(url)
             .then(response => {
