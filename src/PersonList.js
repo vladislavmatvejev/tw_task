@@ -29,9 +29,8 @@ class PersonList extends React.Component {
     }
 
     updateSearchString(event) {
-        console.log('event', event.target.value);
         this.setState({
-            searchString: event.target.value
+            searchString: event.target.value.toLowerCase()
         });
     }
     render() {
@@ -41,7 +40,7 @@ class PersonList extends React.Component {
 
         let filteredPersonList = persons.filter(person => {
             var fullName = person.name.first.toLowerCase() + person.name.last.toLowerCase();
-            return fullName.indexOf(this.state.searchString.toLowerCase()) !== -1;
+            return fullName.indexOf(this.state.searchString) !== -1;
         });
 
         let content =
